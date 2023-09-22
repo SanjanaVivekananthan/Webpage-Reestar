@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+   background-image: url(pexels-miguel-á-padriñán-255379.jpg);
+}
+nav{
+    background-color:black;
+    text-align: center;
+    height:100px;
+   padding-top:40px;
+}
+h1#A{
+    
+    border-top: 2px solid aquamarine;
+    padding-top:10px;
+    
+}
+
+ul{
+    display: inline-block;
+    
+}
+li{
+    display: inline;
+    color:grey;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+#food{
+  
+ text-align: center;
+  margin-top:20px;
+    
+}
+.img{
+    border: 2px solid black;
+
+    display: inline-block ;
+    width: 250px;
+    
+}
+.img:hover{
+    background-color: black;
+    color: white;
+}
+p[class="imgpara"]{
+    padding:20px;
+    text-align: justify;
+}
+p[class="imgorder"]{
+    display: inline;
+    background-color: black;
+    color:white;
+    margin-left: 10px;
+    
+    }
+#contact{
+    text-align: center;
+    margin-top:20px;
+    background-color: black;
+    color: white;
+    height:200px;
+}
+button{
+    width:500px; 
+    background-color:yellow;
+}
+button:hover{
+     cursor: pointer;
+     background-color: white;
+}
